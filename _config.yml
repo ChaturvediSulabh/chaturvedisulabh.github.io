@@ -29,7 +29,7 @@ github_username: ChaturvediSulabh
 # Build settings
 theme: minima
 plugins:
-#  - jekyll-feed
+  -
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -39,6 +39,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 # exclude:
+#   - jekyll-feed
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
