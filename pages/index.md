@@ -4,7 +4,7 @@ post_list: "date"
 toc: true
 home_btn: true
 btn_text: true
-footer: false
+footer: true
 title: "Sulabh Chaturvedi"
 author: ""
 encrypted_text: true
