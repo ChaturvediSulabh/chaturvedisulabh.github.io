@@ -1,58 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+## Settings
 title: Sulabh Chaturvedi
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello, I’m Sulabh. I’m a DevOps Engineer living in London, UK. I am a fan of Distributed Systems, Go Programming Language, and coffee. I’m also interested in fitness, bio-hacks and martial arts.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sulabhchaturvedi.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: oSulabh
-github_username: ChaturvediSulabh
-minima:
-  social_links:
-    twitter: oSulabh
-    github: ChaturvediSulabh
-    stackoverflow: "8600836"
-    linkedin: sulabh-chaturvedi-3b116288
-
-# Build settings
-theme: minima
-plugins:
-  -
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - jekyll-feed
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+owner: "Sulabh Chaturvedi"
+url: "https://sulabhchaturvedi.com"
+baseurl: "/"
+permalink: /:title/
+description: ""
+markdown: kramdown
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+## Global Variables
+github: "ChaturvediSulabh"
+# path to: css/, fonts/, img/ and js/
+assets_path: "/assets" # i.e. "/assets"
+# default max toc levels: 1 - 6 (h1 - h6)
+toc_level: 3
+# texts randomly displayed in background
+bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
