@@ -1,16 +1,13 @@
 ---
 layout: post
 title: An Encrypt and Dectrypt tool with sjcl.js
-author: DeerRIDER
-category: Sample
-date: 2019-4-16
+author: Sulabh Chaturvedi
+category: Tool
+date: 2020-5-28
 ---
 
 <!-- aes encrypt and decrypt method -->
-<script
-  src="{{ site.url }}{{ site.baseurl }}{{ site.assets_path }}/js/sjcl.js"
-  async
-></script>
+<script src="{{ site.url }}{{ site.baseurl }}{{ site.assets_path }}/js/sjcl.js" async></script>
 
 <div class="div_token">
   <table>
@@ -23,13 +20,7 @@ date: 2019-4-16
       <tr>
         <td>Password</td>
         <td>
-          <textarea
-            class="access_token"
-            rows="1"
-            cols="50"
-            id="pwd"
-            style="resize: vertical;"
-          ></textarea>
+          <textarea class="access_token" rows="1" cols="50" id="pwd" style="resize: vertical;"></textarea>
         </td>
         <td></td>
       </tr>
@@ -38,39 +29,21 @@ date: 2019-4-16
           Message
         </td>
         <td>
-          <textarea
-            class="access_token"
-            rows="5"
-            cols="50"
-            id="msg"
-            style="resize: vertical;"
-          ></textarea>
+          <textarea class="access_token" rows="5" cols="50" id="msg" style="resize: vertical;"></textarea>
         </td>
         <td><button class="encrypt" onclick="encrypt()">Encrypt</button></td>
       </tr>
       <tr>
         <td>Ciphertext</td>
         <td>
-          <textarea
-            class="access_token"
-            rows="5"
-            cols="50"
-            id="ct"
-            style="resize: vertical;"
-          ></textarea>
+          <textarea class="access_token" rows="5" cols="50" id="ct" style="resize: vertical;"></textarea>
         </td>
         <td><button class="encrypt" onclick="decrypt()">Decrypt</button></td>
       </tr>
       <tr>
         <td>Minimized</td>
         <td>
-          <textarea
-            class="access_token"
-            rows="5"
-            cols="50"
-            id="min_text"
-            style="resize: vertical;"
-          ></textarea>
+          <textarea class="access_token" rows="5" cols="50" id="min_text" style="resize: vertical;"></textarea>
         </td>
         <td></td>
       </tr>
@@ -81,12 +54,15 @@ date: 2019-4-16
   function encrypt() {
     var pwd = document.getElementById("pwd").value;
     var msg = document.getElementById("msg").value;
-    var ct =  sjcl.json.encrypt(pwd, msg,{salt: ""});
+    var ct = sjcl.json.encrypt(pwd, msg, {
+      salt: ""
+    });
     var ct_obj = JSON.parse(ct);
     document.getElementById("ct").value = ct;
     document.getElementById("msg").value = "";
-    document.getElementById("min_text").value = (ct_obj.iv.substring(0,22) + ct_obj.ct);
+    document.getElementById("min_text").value = (ct_obj.iv.substring(0, 22) + ct_obj.ct);
   }
+
   function decrypt() {
     var pwd = document.getElementById("pwd").value;
     var ct = document.getElementById("ct").value;

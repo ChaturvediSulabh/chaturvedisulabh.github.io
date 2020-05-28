@@ -1,65 +1,66 @@
 ---
 title: Sample Code - Quick Sort
 layout: post
-category: Sample
-date: 2019-2-4
+category: Programming
+date: 2020-5-22
 ---
 
 ## Quick sort in python
 
 ```python
-# Python program for implementation of Quicksort Sort 
-  
-# This function takes last element as pivot, places 
-# the pivot element at its correct position in sorted 
-# array, and places all smaller (smaller than pivot) 
-# to left of pivot and all greater elements to right 
-# of pivot 
-def partition(arr,low,high): 
-    i = ( low-1 )         # index of smaller element 
-    pivot = arr[high]     # pivot 
-  
-    for j in range(low , high): 
-  
-        # If current element is smaller than or 
-        # equal to pivot 
-        if   arr[j] <= pivot: 
-          
-            # increment index of smaller element 
-            i = i+1 
-            arr[i],arr[j] = arr[j],arr[i] 
-  
-    arr[i+1],arr[high] = arr[high],arr[i+1] 
-    return ( i+1 ) 
-  
-# The main function that implements QuickSort 
-# arr[] --> Array to be sorted, 
-# low  --> Starting index, 
-# high  --> Ending index 
-  
-# Function to do Quick sort 
-def quickSort(arr,low,high): 
-    if low < high: 
-  
-        # pi is partitioning index, arr[p] is now 
-        # at right place 
-        pi = partition(arr,low,high) 
-  
-        # Separately sort elements before 
-        # partition and after partition 
-        quickSort(arr, low, pi-1) 
-        quickSort(arr, pi+1, high) 
-  
-# Driver code to test above 
-arr = [10, 7, 8, 9, 1, 5] 
-n = len(arr) 
-quickSort(arr,0,n-1) 
-print ("Sorted array is:") 
-for i in range(n): 
-    print ("%d" %arr[i]), 
-  
-# This code is contributed by Mohit Kumra 
+# Python program for implementation of Quicksort Sort
+
+# This function takes last element as pivot, places
+# the pivot element at its correct position in sorted
+# array, and places all smaller (smaller than pivot)
+# to left of pivot and all greater elements to right
+# of pivot
+def partition(arr,low,high):
+    i = ( low-1 )         # index of smaller element
+    pivot = arr[high]     # pivot
+
+    for j in range(low , high):
+
+        # If current element is smaller than or
+        # equal to pivot
+        if   arr[j] <= pivot:
+
+            # increment index of smaller element
+            i = i+1
+            arr[i],arr[j] = arr[j],arr[i]
+
+    arr[i+1],arr[high] = arr[high],arr[i+1]
+    return ( i+1 )
+
+# The main function that implements QuickSort
+# arr[] --> Array to be sorted,
+# low  --> Starting index,
+# high  --> Ending index
+
+# Function to do Quick sort
+def quickSort(arr,low,high):
+    if low < high:
+
+        # pi is partitioning index, arr[p] is now
+        # at right place
+        pi = partition(arr,low,high)
+
+        # Separately sort elements before
+        # partition and after partition
+        quickSort(arr, low, pi-1)
+        quickSort(arr, pi+1, high)
+
+# Driver code to test above
+arr = [10, 7, 8, 9, 1, 5]
+n = len(arr)
+quickSort(arr,0,n-1)
+print ("Sorted array is:")
+for i in range(n):
+    print ("%d" %arr[i]),
+
+# This code is contributed by Mohit Kumra
 ```
+
 ## Quick sort in haskell
 
 ```haskell
@@ -96,12 +97,12 @@ quicksort ( x : xs ) =
 package com.theme.rouge;
 
 public class MyQuickSort {
-	
+
 	private int array[];
 	private int length;
 
 	public void sort(int[] inputArr) {
-		
+
 		if (inputArr == null || inputArr.length == 0) {
 			return;
 		}
@@ -111,7 +112,7 @@ public class MyQuickSort {
 	}
 
 	private void quickSort(int lowerIndex, int higherIndex) {
-		
+
 		int i = lowerIndex;
 		int j = higherIndex;
 		// calculate pivot number, I am taking pivot as middle index number
@@ -119,9 +120,9 @@ public class MyQuickSort {
 		// Divide into two arrays
 		while (i <= j) {
 			/**
-			 * In each iteration, we will identify a number from left side which 
-			 * is greater then the pivot value, and also we will identify a number 
-			 * from right side which is less then the pivot value. Once the search 
+			 * In each iteration, we will identify a number from left side which
+			 * is greater then the pivot value, and also we will identify a number
+			 * from right side which is less then the pivot value. Once the search
 			 * is done, then we exchange both numbers.
 			 */
 			while (array[i] < pivot) {
@@ -149,9 +150,9 @@ public class MyQuickSort {
 		array[i] = array[j];
 		array[j] = temp;
 	}
-	
+
 	public static void main(String a[]){
-		
+
 		MyQuickSort sorter = new MyQuickSort();
 	    int[] input = {24,2,45,20,56,75,2,56,99,53,12};
 	    sorter.sort(input);
