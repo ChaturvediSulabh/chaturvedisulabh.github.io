@@ -1,11 +1,11 @@
 ---
 layout: default
 post_list: "date"
-toc: false
+toc: true
 home_btn: true
 btn_text: true
 footer: false
-title: ""
+title: "Sulabh Chaturvedi"
 author: ""
 encrypted_text: true
 permalink: /
