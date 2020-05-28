@@ -25,6 +25,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sulabhchaturvedi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: oSulabh
 github_username: ChaturvediSulabh
+minima:
+  social_links:
+    twitter: oSulabh
+    github: ChaturvediSulabh
+    stackoverflow: "8600836"
+    linkedin: sulabh-chaturvedi-3b116288
 
 # Build settings
 theme: minima
