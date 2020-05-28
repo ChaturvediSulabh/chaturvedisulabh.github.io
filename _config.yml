@@ -10,7 +10,9 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
+twitter: "oSulabh"
 github: "ChaturvediSulabh"
+linkedin: "sulabh-chaturvedi-3b116288"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets"
 # default max toc levels: 1 - 6 (h1 - h6)
