@@ -1,0 +1,48 @@
+I"V
+<p><img src="../assets/img/ckad.png" alt="CKAD" /></p>
+
+<h2 id="exam-overview">Exam Overview</h2>
+
+<ul>
+  <li>This is a practical exam, where you’re tested around the skill you’d do in your day to day job as Kubernetes ApplicationDeveloper.</li>
+  <li>The Exams is 2 hours long and contains 19 Questions.</li>
+  <li>You’re provided with a Web terminal with four k8s clusters, each task has to be done in a certain namespace, so you’ll have to keep switching between different clusters and namespaces.</li>
+  <li><a href="https://github.com/cncf/curriculum">Exam curriculum</a></li>
+  <li>You’re allowed to open <strong>only one other tab</strong> in the browser and you can browse at <a href="https://kubernetes.io/docs/">Official docs</a>​, <a href="​https://github.com/kubernetes/">GitHub Repo</a>​, <a href="https://kubernetes.io/blog/​">Official blog</a> and their subdomains.</li>
+</ul>
+
+<h2 id="skills-needed-to-clear-the-exam">Skills needed to clear the exam</h2>
+
+<ul>
+  <li>kubernetes (obviously)</li>
+  <li>Basic Linux command and Bash skills (cat, here-doc, tee, cut, sed, awk, tr etc.)</li>
+  <li>Kubectl (command) - you need to be very good at this</li>
+  <li>Navigation and File manipulation with Vi/Vim editor</li>
+</ul>
+
+<h2 id="prep-work">Prep Work</h2>
+
+<ul>
+  <li><a href="https://linuxacademy.com/cp/modules/view/id/305">Linux Academy</a></li>
+  <li><a href="https://learning.oreilly.com/library/view/kubernetes-in-action/9781617293726/kindle_split_011.html">Kubernetes in Action book, Read until Part-1</a></li>
+  <li><a href="https://github.com/dgkanatsios/CKAD-exercises">Practise these questions at-least three times</a></li>
+  <li><a href="https://github.com/IBM/Scalable-WordPress-deployment-on-Kubernetes">Deploy a wordpress blog</a></li>
+  <li><a href="https://killer.sh/">Mock Exam from killer.sh</a></li>
+</ul>
+
+<h2 id="getting-help-from-the-community">Getting help from the community</h2>
+
+<p><a href="https://kubernetes.slack.com/">Kubernetes Slack: join channel #ckad-prep</a></p>
+
+<h2 id="less-than-24-hours-before-the-exam">Less than 24 hours before the exam</h2>
+
+<ul>
+  <li><a href="https://medium.com/@nassim.kebbani/how-to-beat-kubernetes-ckad-certification-c84bff8d61b1">Read this Blog and re-assess</a></li>
+  <li><a href="https://www.youtube.com/watch?v=3I9PkvZ80BQ">Watch This</a></li>
+  <li><a href="https://www.youtube.com/watch?v=V96gLdlHXng">And watch this too</a></li>
+</ul>
+
+<p><strong>My advice to all aspirants is, prepare well, know your craft, practice a lot and go ace it.</strong></p>
+
+<p><img src="https://media.giphy.com/media/kaSrzJPFy8TfENHSKo/giphy.gif" alt="" /></p>
+:ET

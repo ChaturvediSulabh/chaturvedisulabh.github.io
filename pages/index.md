@@ -7,7 +7,7 @@ btn_text: true
 footer: true
 title: "Sulabh Chaturvedi"
 author: ""
-encrypted_text: true
+encrypted_text: false
 permalink: /
 ---
 
