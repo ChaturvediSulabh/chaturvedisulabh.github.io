@@ -5,7 +5,7 @@ category: Kubernetes
 date: 2019-11-24
 ---
 
-![CKAD](../assets/img/ckad.img)
+![CKAD](../assets/img/ckad.png)
 
 ## Exam Overview
 
