@@ -52,4 +52,5 @@ Technically, I bootstrapped my own kubeadm clusters, broke it and played enough 
 You may be thinking, Did I over-prepare? Maybe. But, was it worth it? Absolutely, I gained a lot of confidence, I felt very well-prepared and **I finished my exam 25 minutes before**, that's right 25 minutes.
 
 **My advice to all aspirants is, prepare well, know your craft, practice a lot and go ace it.**
+
 ![](https://media.giphy.com/media/hrvSx2SVGwfaEINZ9G/giphy.gif)
