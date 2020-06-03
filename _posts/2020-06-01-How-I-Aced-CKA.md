@@ -2,7 +2,7 @@
 title: How I passed Certified Kubernetes Administrator Exam
 layout: post
 category: Kubernetes
-date: 2020-06-01
+date: 2020-06-02
 ---
 
 ![CKA](../assets/img/cka.png)

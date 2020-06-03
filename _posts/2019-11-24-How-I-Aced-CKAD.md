@@ -2,7 +2,7 @@
 title: How I passed Certified Kubernetes Application Developer Exam
 layout: post
 category: Kubernetes
-date: 2019-11-24
+date: 2019-11-04
 ---
 
 ![CKAD](../assets/img/ckad.png)
