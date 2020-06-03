@@ -16,6 +16,7 @@ I recently passed my CKA exam with 92%. While prepping for the exam, I had read 
 ## Skills needed to clear the exam
 
 - Kubernetes (obviously)
+- Docker (troubleshooting with docker ps, docker logs etc.)
 - Basic Linux system administration ( systemd, journalctl, file permissions, package management, basic bash scripting, and commands (cat, here-doc, tr, awk, cut, sed, netstat/ss, ps, tee, etc.) vim, etc. )
 
 ## Prep Work
@@ -39,7 +40,7 @@ Finally, I prepped a list of questions that, I was struggling with and I impleme
 
 Technically, I bootstrapped my own kubeadm clusters, broke it and played enough with it.
 
-> Here a takeaway for me was, **use calico for CNI, if you're asked to bootstrap the cluster**, Why? Because weave-net and others many at times gives an error when a custom pod-cidr is not provided. whereas, Calico will automatically detect which IP address range to use for pod IPs based on the value provided via the --pod-network-cidr flag or via kubeadm’s configuration.
+> Here a takeaway for me was, **use calico for CNI, if you're asked to bootstrap the cluster**. Why? Because weave-net and others many at times gives an error when a custom pod-cidr is not provided. whereas, Calico will automatically detect which IP address range to use for pod IPs based on the value provided via the --pod-network-cidr flag or via kubeadm’s configuration.
 
 ## Final Words
 
